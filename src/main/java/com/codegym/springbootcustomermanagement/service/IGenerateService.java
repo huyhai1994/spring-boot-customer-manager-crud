@@ -7,7 +7,7 @@ import java.util.Optional;
 public interface IGenerateService<T> {
     Iterable<T> findAll();
 
-    Optional<T> FindById(Long id);
+    Optional<T> findById(Long id);
 
     void save(T t);
 
